@@ -7,8 +7,6 @@ with open("words.txt", 'r') as f:
 truncDict = []
 for word in data:
     if len(word[:-1]) == 5:
-        if word[:3] == "spi":
-            print(word, 1)
         if bool(re.search('^[a-z]*$', word[:-1])):
             if word[:3] == "spi":
                 print(word, 2)
