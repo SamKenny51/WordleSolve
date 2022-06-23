@@ -1,0 +1,1 @@
+What is the best starting word for the game Wordle? In this coding project, I attempt to solve this very important problem by using set intersection to determine which words remain after a word is entered and feedback is received.
